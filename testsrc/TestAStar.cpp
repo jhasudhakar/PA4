@@ -60,7 +60,7 @@ int main(int argc, char * argv[]) {
     	int o_r, o_c;
     	in >> o_r;
     	in >> o_c;
-    	if(o_r < n && o_c < m && o_r > 0 && o_c > 0){
+    	if(o_r < n && o_c < m && o_r >= 0 && o_c >= 0){
     		grid.at(o_r, o_c).obstacle = true;
     	}
     }
